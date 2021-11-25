@@ -1,0 +1,10 @@
+<suite name="RegressionTestSuite" verbose="1" parallel="classes" thread-count="4">
+    <test name="AllTests" >
+        <classes>
+            <class name="Tests.InvalidLoginsTest"/>
+            <class name="Tests.CompanyTest"/>
+            <class name="Tests.CareersTest"/>
+            <class name="Tests.OpenPositionsTest"/>
+        </classes>
+    </test>
+</suite>
